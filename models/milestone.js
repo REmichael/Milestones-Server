@@ -19,9 +19,5 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.INTEGER,
             allowNull:false
         },
-        photo: {
-            type: DataTypes.STRING,
-        }
-
     });
 };
