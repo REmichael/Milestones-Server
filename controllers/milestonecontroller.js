@@ -29,6 +29,7 @@ router.post('/milestone', (req, res) => {
         milestone: req.body.milestone,
         date: req.body.date,
         description: req.body.description,
+        image: req.body.image,
         owner: owner
     }
     MileModel
