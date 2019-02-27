@@ -9,16 +9,19 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: false
         },
         date: {
-            type: DataTypes.STRING,
-            allowNull: false
+            type: DataTypes.DATE,
         },
         description: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false
         },
         owner: {
             type: DataTypes.INTEGER,
             allowNull:false
+        },
+        photo: {
+            type: DataTypes.STRING,
         }
+
     });
 };
