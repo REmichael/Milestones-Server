@@ -14,6 +14,7 @@ router.post('/user', function (req, res) {
     User.create({
       username: username,
       passwordhash: bcrypt.hashSync(pass, 10)
+      // role: role
   
     }).then(
       function createSuccess(user){
